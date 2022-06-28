@@ -57,7 +57,7 @@ public class RecoXUsuarioController {
 		} catch (Exception e) {
 			model.addAttribute("error", e.getMessage());
 		}
-		return "/RecoXUsuario/frmLista";
+		return "RecoXUsuario/frmLista";
 	}
 	
 	@RequestMapping("/delete")

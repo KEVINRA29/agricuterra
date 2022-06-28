@@ -54,7 +54,7 @@ public class UsuarioController {
 		} catch (Exception e) {
 			model.addAttribute("error", e.getMessage());
 		}
-		return "/usuario/frmLista";
+		return "usuario/frmLista";
 	}
 
 	@RequestMapping("/delete")

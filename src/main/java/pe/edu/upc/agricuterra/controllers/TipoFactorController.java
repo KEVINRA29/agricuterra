@@ -49,7 +49,7 @@ public class TipoFactorController {
 		} catch (Exception e) {
 			model.addAttribute("error", e.getMessage());
 		}
-		return "/tipofactor/frmLista";
+		return "tipofactor/frmLista";
 	}
 
 	@RequestMapping("/delete")

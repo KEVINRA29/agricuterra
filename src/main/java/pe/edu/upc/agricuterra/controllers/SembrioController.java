@@ -49,7 +49,7 @@ public class SembrioController {
 		} catch (Exception e) {
 			model.addAttribute("error", e.getMessage());
 		}
-		return "/sembrio/frmLista";
+		return "sembrio/frmLista";
 	}
 
 	@RequestMapping("/delete")
