@@ -49,7 +49,7 @@ public class TipoRecomendacionController {
 		} catch (Exception e) {
 			model.addAttribute("error", e.getMessage());
 		}
-		return "/TipoRecomendacion/frmLista";
+		return "TipoRecomendacion/frmLista";
 	}
 
 	@RequestMapping("/delete")
