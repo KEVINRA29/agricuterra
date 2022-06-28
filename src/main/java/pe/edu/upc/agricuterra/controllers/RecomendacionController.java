@@ -52,7 +52,7 @@ public class RecomendacionController {
 		} catch (Exception e) {
 			model.addAttribute("error", e.getMessage());
 		}
-		return "/recomendacion/frmLista";
+		return "recomendacion/frmLista";
 	}
 
 	@RequestMapping("/delete")
